@@ -1,0 +1,623 @@
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+ body {
+
+     font-family: 'Titillium Web', sans-serif;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+
+ }
+
+ img {
+     vertical-align: middle;
+ }
+
+ ul,
+ li {
+     list-style-type: none;
+ }
+
+ a:hover,
+ a {
+     text-decoration: none;
+ }
+
+
+ h1 {
+     font-size: 42px;
+     color: #f7f3ea;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 700;
+ }
+
+ h2 {
+     font-size: 40px;
+     color: #ffffff;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ h3 {
+     font-size: 24px;
+     color: #ffffff;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+
+ h4 {
+     font-size: 21px;
+     color: #ffffff;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 400;
+     font-style: italic;
+ }
+
+ h5 {
+     font-size: 18px;
+     color: #fff;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 400;
+ }
+
+ h6 {
+     font-size: 16px;
+     color: #30bae7;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 400;
+     text-transform: capitalize;
+ }
+
+ p {
+     font-size: 16px;
+     color: #3c4761;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 300;
+     line-height: 1.6;
+ }
+
+ a {
+     font-size: 16px;
+     color: #fff !important;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 400;
+     text-transform: uppercase;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ a,
+ p,
+ div,
+ footer,
+ ul,
+ li {
+     padding: 0;
+     margin: 0;
+ }
+
+
+ /*====================Common Heading Start=======================*/
+ .common_heading {
+     text-align: center;
+ }
+
+ .common_heading h2 {
+     position: relative;
+     padding-bottom: 45px;
+ }
+
+ .common_heading h2::after {
+     position: absolute;
+     content: '';
+     bottom: 20px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 90px;
+     height: 4px;
+ }
+
+ .common_heading h5 {
+     padding-bottom: 80px;
+ }
+
+ /*====================Common Heading End=========================*/
+ header {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+
+ .sticky-nav {
+     position: fixed !important;
+     width: 100%;
+     left: 0;
+     top: 0;
+     z-index: 999;
+ }
+
+ .sticky-nav nav {
+     background: rgba(135, 80, 156, .9);
+ }
+
+ header .menu .nav-link {
+     padding: 10px 16px !important;
+     transition: 0.9s;
+     display: block;
+     margin-left: 5px;
+     border-radius: 3px;
+ }
+
+ header .menu .nav-link:hover {
+     background: #643a79;
+ }
+
+ .navbar-nav .nav-link.active {
+     background: #643a79;
+ }
+
+ /*====================Header     Part End========================*/
+
+
+
+ /*====================Banner     Part start======================*/
+
+ #banner {
+     background: url('../images/hero-bg.jpg');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ .banner_overlay {
+     text-align: center;
+     background: rgba(135, 80, 156, 0.9);
+     min-height: 100vh;
+ }
+
+ #banner h1 {
+     padding-top: 400px;
+     margin-bottom: 50px;
+ }
+
+ #banner a {
+     padding: 25px 85px;
+     background: #eb7d4b;
+     border-radius: 3px;
+     border-bottom: 4px solid #c86a40;
+ }
+
+ /*====================Banner     Part End========================*/
+
+
+ /*====================Service    Part start======================*/
+
+
+ #service {
+     background: url('../images/services-bg.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat;
+ }
+
+ .service_overlay {
+     padding: 115px 0px 125px;
+     background: rgba(23, 194, 164, 0.9)
+ }
+
+ #service h2::after {
+     background: #14a58c;
+
+ }
+
+ #service h5 {
+     color: #fff;
+ }
+
+ #service .service_item {
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ #service .service_item img {
+     margin-bottom: 55px;
+ }
+
+ #service .service_item h3 {
+     padding-bottom: 25px;
+
+ }
+
+ #service .service_item p {
+     color: #fff;
+ }
+
+ /*====================Service    Part End========================*/
+
+
+
+ /*====================Team       Part start======================*/
+
+
+ #team {
+     background: url('../images/team-bg.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat;
+
+ }
+
+ .team_overlay {
+     padding: 115px 0px 125px;
+     background: rgba(231, 241, 248, 0.9)
+ }
+
+ #team .common_heading h2,
+ #team .common_heading h5 {
+     color: #3c4761;
+ }
+
+ #team .common_heading h2::after {
+     background: #c8d9e5;
+ }
+
+ .team_member {
+     text-align: center;
+ }
+
+ .team_member img {
+     border-radius: 50%;
+     margin-bottom: 35px;
+ }
+
+ .team_member h3 {
+     color: #3c4761;
+ }
+
+ .team_member p {
+     margin-bottom: 20px;
+ }
+
+ .team_social_icon {}
+
+ .team_social_icon li {
+     display: inline-block;
+     padding-right: 10px;
+
+ }
+
+ .team_social_icon li a {
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     background: #bdd1df;
+     display: block;
+     text-align: center;
+ }
+
+ .team_social_icon li a i {
+     font-size: 15px;
+     line-height: 30px;
+     transition: 0.7s;
+ }
+
+ .team_social_icon li a:hover i {
+     transform: rotate(360deg);
+ }
+
+ .team_social_icon li a:hover {
+     background: #000;
+ }
+
+ /*====================Team       Part End========================*/
+
+
+ /*====================Skill      Part start======================*/
+
+ #skill {
+     background: url('../images/skill-bg.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat;
+ }
+
+ .skill_overlay {
+     padding: 115px 0px 120px;
+     text-align: center;
+     color: #3c4761;
+     background: rgba(255, 255, 255, 0.9)
+ }
+
+ #skill h2 {
+     color: #3c4761;
+ }
+
+ #skill h5 {
+     color: #3c4761;
+ }
+
+ #skill .common_heading h2::after {
+     background: #dfe8ed;
+ }
+
+ .skills_percentage h3 {
+     color: #3c4761;
+ }
+
+ svg.radial-progress circle {
+     stroke-width: 5;
+ }
+
+ svg.radial-progress text {
+     fill: #3c4761;
+ }
+
+ svg.web circle {
+     stroke: #30bae7;
+ }
+
+ svg.html circle {
+     stroke: #d74680;
+ }
+
+ svg.graphic circle {
+     stroke: #15c7a8;
+ }
+
+ svg.ui circle {
+     stroke: #eb7d4b;
+ }
+
+ /*====================Skill      Part End========================*/
+
+
+
+ /*====================Portfolio  Part start======================*/
+
+ #portfolio {
+     background: url('../images/portfolio-bg.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat;
+
+ }
+
+ .portfolio_overlay {
+     padding: 110px 0px 100px;
+     background: rgba(255, 221, 153, 0.9);
+     text-align: center;
+ }
+
+ #portfolio .common_heading h2,
+ #portfolio .common_heading h5 {
+     color: #393939;
+ }
+
+ #portfolio .common_heading h2::after {
+     background-color: #ebc985;
+ }
+
+ .element-item img {
+     margin-bottom: 30px;
+ }
+
+ /* ---- button-group ---- */
+
+ .button {
+     display: inline-block;
+     padding: 12px 25px;
+     margin-bottom: 60px;
+     border-radius: 3px;
+     color: #393939;
+     background: #ebc985;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+ }
+
+ .portfolio_button .button:hover {
+     background: #fff;
+     box-shadow: inset 0 3px 10px rgba(24, 24, 24, 0.5);
+ }
+
+ .button-group .button {
+     margin-left: 0;
+     margin-right: 10px;
+ }
+
+ /* ---- isotope ---- */
+
+ /* clear fix */
+ .grid:after {
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ /* ---- .element-item ---- */
+
+ .element-item {
+     position: relative;
+     float: left;
+     width: 45%;
+     height: auto;
+     margin: 0px 20px 75px 0px;
+     padding: 10px;
+ }
+
+ .element-item>* {
+     margin: 0;
+     padding: 0;
+ }
+
+ #portfolio a {
+     padding: 25px 85px;
+     background: #17c2a4;
+     border-radius: 3px;
+     border-bottom: 4px solid #14a58c;
+ }
+
+ /*====================Portfolio  Part End========================*/
+
+
+
+ /*====================About      Part start======================*/
+
+ #about {
+     background: url('../images/about-bg.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat;
+ }
+
+ .about_overlay {
+     padding: 110px 0px 10px;
+     background: rgba(215, 70, 128, 0.9);
+ }
+
+ #about .common_heading h2,
+ #about .common_heading h5 {
+     color: #fff;
+ }
+
+ #about .common_heading h2::after {
+     background: #b73c6d;
+ }
+
+ .client_img {
+     height: 95px;
+     width: 95px;
+     border-radius: 50%;
+     overflow: hidden;
+     text-align: center;
+ }
+
+ .client_review {
+     margin-bottom: 120px;
+ }
+
+ .client_details p {
+     color: #facd96;
+ }
+
+ /*====================About      Part End========================*/
+ /*====================Contact    Part start======================*/
+ #contact {
+     background: url('../images/contact-bg.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat;
+ }
+
+ .contact_overlay {
+     padding: 120px 0px 110px;
+     background: rgba(60, 84, 153, 0.9);
+ }
+
+ #contact .common_heading h2,
+ #contact .common_heading h5 {
+     color: #fff;
+ }
+
+ #contact .common_heading h2::after {
+     background: #273a71;
+ }
+
+ .contact_form {
+     text-align: center;
+ }
+
+ .contact_form input {
+     margin-bottom: 25px;
+ }
+
+ .contact_form input[type="text"],
+ .contact_form input[type="email"],
+ .contact_form textarea {
+     color: #fff;
+     border-radius: 5px;
+     background: #273a71;
+     padding: 12px;
+     width: 100%;
+ }
+
+ .contact_form input[type="submit"] {
+     margin-top: 50px;
+     padding: 18px 50px;
+     background: #30bae7;
+     color: #fff;
+     font-size: 18px;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: 600;
+     border-bottom: 3px solid #299ec5;
+ }
+
+ .contact_form form ::placeholder {
+     color: #fff;
+     opacity: 1;
+ }
+
+ textarea::placeholder {
+     color: #fff;
+     opacity: 1;
+ }
+
+ /*====================Contact    Part End========================*/
+
+ /*====================Footer    Part End========================*/
+
+
+ footer {
+     background: #344b8e;
+     padding: 40px 0px;
+     border-top: 1px solid #3c5499;
+ }
+
+ footer ul li {
+     display: inline-block;
+ }
+
+ footer ul li a {
+     display: block;
+     margin: 0px 12px;
+     transition: 0.4s;
+ }
+
+ footer ul li:hover a {
+     color: #30bae7 !important;
+ }
+
+
+ /*====================Footer    Part End========================*/
+
+
+ .topbtn {
+     height: 30px;
+     width: 30px;
+     background: burlywood;
+     right: 5%;
+     bottom: 5%;
+     position: fixed;
+     display: none;
+ }

@@ -1,0 +1,150 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    /*Banner*/
+    #banner h1 {
+        padding-top: 300px;
+    }
+
+    #banner a {
+        padding: 15px 35px;
+    }
+
+    /*Banner*/
+    /*Service*/
+    .common_heading h5 {
+        padding-bottom: 50px;
+    }
+
+    .service_overlay {
+        padding: 55px 0px 50px;
+    }
+
+    /*Service*/
+    /*Team*/
+    .team_overlay {
+        padding: 60px 0px 50px;
+    }
+
+    .team_member {
+        margin-bottom: 30px;
+    }
+
+    /*Team*/
+    /*Skill*/
+    .skill_overlay {
+        padding: 60px 0px 50px;
+    }
+
+    /*Skill*/
+    /*Portfolio*/
+    .portfolio_overlay {
+        padding: 60px 0px 50px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .element-item {
+        width: 100%;
+    }
+
+    #portfolio a {
+        padding: 15px 25px;
+    }
+
+    /*Portfolio*/
+    /*About*/
+    .about_overlay {
+        padding: 60px 0px 10px;
+    }
+
+    .client_review {
+        margin-bottom: 30px;
+    }
+
+    /*About*/
+    /*Contact*/
+    .contact_overlay {
+        padding: 60px 0px 50px;
+    }
+
+    .contact_form input[type="submit"] {
+        padding: 15px 25px;
+        font-size: 14px;
+    }
+
+    /*Contact*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /*Banner*/
+
+    /*Banner*/
+    /*Team*/
+    .team_member {
+        margin-bottom: 30px;
+    }
+
+    /*Team*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*Team*/
+    .team_member {
+        margin-bottom: 30px;
+    }
+
+    /*Team*/
+}
